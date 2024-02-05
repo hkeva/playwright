@@ -21,3 +21,5 @@ To run specific test files, use the following command structure:
 For instance : npx playwright test tests/negativeTesting.spec.ts
 
 Alternatively, consider the "Playwright Test for VS Code" extension by Microsoft for a better testing experience.
+
+Note : Initially, some tests may fail due to the absence of a file. However, after the first run, the file is saved within a subfolder of the 'tests' directory, allowing subsequent comparisons to pass
